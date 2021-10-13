@@ -158,6 +158,9 @@ header .container::after {
 #gnav li:first-child {
   padding: 3em;
   border-bottom: solid 1px #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #gnav a {
   display: block;
