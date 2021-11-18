@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.2769e9c75b1bfecb655766299b6f4539.js"
+  "/precache-manifest.2f5daba782707a6d10e5502f2e54f243.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "tw-like"});
+workbox.core.setCacheNameDetails({prefix: "houtiapp"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
